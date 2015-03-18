@@ -200,10 +200,6 @@ closureBuilder:  {
     //    If set it trumps 'closureLibraryPath' which will not be required.
     builder: 'path/to/closurebuilder.py',
 
-    // [REQUIRED] One of the two following options is required:
-    inputs: 'string|Array', // input files (can just be the entry point)
-    namespaces: 'string|Array', // namespaces
-
     // [OPTIONAL] Define the Python binary:
     pythonBinary: '/path/to/binary/python/',
 
@@ -240,6 +236,9 @@ closureBuilder:  {
 
   // any name that describes your operation
   targetName: {
+    // [REQUIRED] One of the two following options is required:
+    inputs: 'string|Array', // input files (can just be the entry point)
+    namespaces: 'string|Array', // namespaces
 
     // [REQUIRED] paths to be traversed to build the dependencies
     src: 'string|Array',
