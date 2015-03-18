@@ -301,6 +301,8 @@ closureDepsWriter: {
 
 ## Release History
 
+- **v0.9.8**, *18 Mar 2015*
+  - Move inputs/namespaces in targets of closureBuilder [@dacast](https://github.com/dacast).
 - **v0.9.8**, *16 Jan 2015*
   - Upgraded to task-closure-tools v0.1.9, better handling for cases where an empty source is provided. [@betaorbust](https://github.com/betaorbust).
 - **v0.9.7**, *08 Jul 2014*
